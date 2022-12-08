@@ -24,10 +24,15 @@ To install the project, follow these steps:
 2. Navigate to the directory where the project was cloned and create a virtual environment:
 ```
 cd CharacterNameGenerator
-python3 -m venv env
+python3 -m venv venv
 ```
 
-3. Activate the virtual environment:
+3. Make a copy of the example environment variables file
+   ```bash
+    $ cp .env.example .env
+   ```
+
+4. Activate the virtual environment:
     ```bash
     $ source venv/bin/activate
     ```
@@ -36,13 +41,6 @@ python3 -m venv env
     ```bash
     $ . .venv/Scripts/activate
     ```
-
-
-4. Make a copy of the example environment variables file
-   ```bash
-    $ cp .env.example .env
-   ```
-
 
 5. Install the dependencies (you may need to use `pip3` instead):
     ```bash
