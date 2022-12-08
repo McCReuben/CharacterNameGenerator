@@ -7,7 +7,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 app = Flask(__name__)
 
 def make_prompt(characteristic):
-    return """Suggest 3 names for an rpg charater that is a {}.
+    return """Suggest 3 names for an rpg charater in a Fantasy.
 Charater: Bard
 Names: Malcius Thorsalan, Bevis Bardigan, Trelgath Fylar 
 Charater: Hero

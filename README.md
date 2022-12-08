@@ -29,8 +29,14 @@ python3 -m venv env
 
 3. Activate the virtual environment:
     ```bash
-    $ source env/bin/activate
+    $ source venv/bin/activate
     ```
+
+    If using Windows Powershell, run:
+    ```bash
+    $ . .venv/Scripts/activate
+    ```
+
 
 4. Make a copy of the example environment variables file
    ```bash
