@@ -52,7 +52,7 @@ To use the project, follow these steps:
 
 1. Run the Flask development server:
     ```bash
-    $ export FLASK_APP=main.py
+    $ export FLASK_APP=app.py
     $ flask run
     ```
 2. Open your web browser and navigate to http://127.0.0.1:5000/ to access the application.
